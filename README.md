@@ -1,2 +1,2 @@
-# [tunoviecito](https://jvckpzt.github.io/tunoviecito-/)https://jvckpzt.github.io/tunoviecito-/-
+# tu noviecito/-
 para mi noviecita uwu
