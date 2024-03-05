@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Puedo ser tu novio? :3</title>
+    <style>
+        .body {
+            background-color: pink;
+            text-align: center;
+        }
+
+        .body__title {
+            color: black;
+        }
+        
+        .body_img {
+            width: 100%;
+            max-width: 512px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <h1 class="body__title">¿Puedo ser tu novio? :3</h1>
+    <img 
+     src="https://i.pinimg.com/564x/ea/6b/d5/ea6bd5a00b64356ef57d5120e2a31be2.jpg" 
+     alt="io y mi nubesita" class="body_img">
+     <br>
+    <button id="yes">👍🏻Autorizo👍🏻</button>
+    <button id="no">👎🏻No Autorizo👎🏻</button>
+
+    <script>
+        const vutonSi = document.getElementById('yes');
+        const vutonNo = document.getElementById('no');
+
+        const SoyTuNoviecito = () => {
+            alert ('Ahora soy tu noviecito 💚');
+            alert ('Te cuidaré muy bien, mi nubesita :D');
+            location.href = 'https://www.youtube.com/watch?v=1KgaMRs-P6w'
+        };
+
+        const AutorizasPorqueAutorizas = () => {
+            vutonNo.style.position = 'absolute';
+            vutonNo.style.top = (Math.random() * window.innerHeight + 'px');
+            vutonNo.style.left = (Math.random() * window.innerWidth + 'px');
+        };
+
+        vutonSi.addEventListener('click', SoyTuNoviecito);
+        vutonNo.addEventListener('mouseover', AutorizasPorqueAutorizas);
+    </script>
+</body>
+
+</html>
